@@ -9,10 +9,10 @@ um# django_dosker
     - STATIC_ROOT = os.path.join(BASE_DIR, 'static')
     - ALLOWED_HOSTS = ['127.0.0.1', '<твоё_имя_пользователя>.pythonanywhere.com']
 - python manage.py migrate  
+- python manage.py createsuperuser
 - python manage.py runserver 8000
-``:wq``
 - python manage.py startapp app
-- insert app in INSTALLED_APPS
+- insert app in INSTALLED_APPS (обязательно)
 - options:
     - python manage.py makemigrations app
     - python manage.py migrate app
